@@ -140,12 +140,6 @@ class LabelEncoders(BaseEstimator, TransformerMixin):
         
         return self
     
-    # def transform(self, X):
-    #     X = X.copy()
-    #     for feature in self.variables:
-    #         X[feature] = self.encoder_dict_[feature].transform(X[feature])
-    #     return X 
-
     def transform(self, X):
         X = X.copy()
         for feature in self.variables:
