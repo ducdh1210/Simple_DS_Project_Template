@@ -79,7 +79,7 @@ class CrossValidation:
         return self.dataframe
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # df = pd.read_csv("../input/train_multilabel.csv")
     # cv = CrossValidation(df, shuffle=True, target_cols=["attribute_ids"], 
     #                      problem_type="multilabel_classification", multilabel_delimiter=" ")
